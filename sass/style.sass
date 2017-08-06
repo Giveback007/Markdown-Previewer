@@ -1,0 +1,37 @@
+*
+ box-sizing: border-box
+ // border: solid
+
+body
+ background: #d9d9d9
+
+#title
+ text-align: center
+
+#main
+ max-width: 1200px
+ margin: 20px auto
+ box-shadow: 0 0 5px black
+ background: white
+ 
+.root
+ width: 100%
+ display: flex
+
+#input, #output
+ flex: 1
+ width: 40%
+ margin: 20px
+ padding: 15px 10px
+
+#input
+ height: 80vh
+ box-shadow: 0 0 2px black
+
+@media screen and (max-width: 750px)
+ #main
+  margin: 20px 20px
+ .root
+  flex-direction: column
+ #input, #output
+  width: 93%
